@@ -36,14 +36,14 @@ def addBook():
     root.minsize(width=400,height=400)
     root.geometry("600x500")
 
-    # Add your own database name and password here to reflect in the code
+    # Add my database name and password
     mypass = "root"
     mydatabase="db"
 
     con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)
     cur = con.cursor()
 
-    # Enter Table Names here
+    
     bookTable = "books" # Book Table
 
     Canvas1 = Canvas(root)

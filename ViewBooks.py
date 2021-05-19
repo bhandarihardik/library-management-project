@@ -3,14 +3,13 @@ from PIL import ImageTk,Image
 from tkinter import messagebox
 import pymysql
 
-# Add your own database name and password here to reflect in the code
+# Add my database name and password 
 mypass = "root"
 mydatabase="db"
 
 con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)
 cur = con.cursor()
 
-# Enter Table Names here
 bookTable = "books" 
     
 def View(): 

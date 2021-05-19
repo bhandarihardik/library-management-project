@@ -7,7 +7,7 @@ from DeleteBook import *
 from ViewBooks import *
 from IssueBook import *
 from ReturnBook import *
-# Add your own database name and password here to reflect in the code
+# Add my database name and password 
 mypass = "root"
 mydatabase="db"
 
@@ -19,7 +19,7 @@ root.title("Library")
 root.minsize(width=400,height=400)
 root.geometry("600x500")
 
-# Take n greater than 0.25 and less than 5
+
 same=True
 n=0.25
 
